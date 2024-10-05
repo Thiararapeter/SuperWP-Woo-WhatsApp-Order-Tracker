@@ -2,12 +2,12 @@
 Author URI: https://profiles.wordpress.org/thiarara/
 Plugin URI: https://github.com/Thiararapeter/SuperWP-Woo-WhatsApp-Order-Tracker
 Donate link: 
-Contributors: Thiarara - SuperWP
-Tags: whatsapp, WooCommerce, order, order tracking
+Contributors: Thiarara, SuperWP
+Tags: whatsapp, WooCommerce, order tracking, WhatsApp notifications, WooCommerce integration
 Requires at least: 4.7
 Tested up to: 6.6
-Requires PHP: 7
-Stable tag: 1.0.02
+Requires PHP: 7.0
+Stable tag: 1.0.03
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -15,47 +15,45 @@ WooCommerce WhatsApp Order Tracking Form with admin settings, color sliders, and
 
 == Description ==
 
-This is the long description.  No limit, and you can use Markdown (as well as in the following sections).
+SuperWP Woo WhatsApp Order Tracker is a plugin that allows your customers to track their WooCommerce orders directly via WhatsApp. Customers can input their order number and phone number, then receive real-time updates and order tracking information on their WhatsApp.
 
-For backwards compatibility, if this section is missing, the full length of the short description will be used, and
-Markdown parsed.
+**Key Features:**
+* Order tracking form with shortcode.
+* Admin settings to customize WhatsApp tracking messages.
+* Placeholder and color sliders for customization.
+* Configurable admin WhatsApp number to send notifications.
+* WhatsApp notifications directly linked to order status updates.
+* Ability to rename the WhatsApp button for enhanced user engagement.
 
-A few notes about the sections above:
-
-*   "Contributors" is a comma separated list of wordpress.org usernames
-*   "Tags" is a comma separated list of tags that apply to the plugin
-*   "Requires at least" is the lowest version that the plugin will work on
-*   "Tested up to" is the highest version that you've *successfully used to test the plugin*. Note that it might work on
-higher versions... this is just the highest one you've verified.
-*   Stable tag should indicate the Subversion "tag" of the latest stable version, or "trunk," if you use `/trunk/` for
-stable.
-
-    Note that the `readme.txt` of the stable tag is the one that is considered the defining one for the plugin, so
-if the `/trunk/readme.txt` file says that the stable tag is `4.3`, then it is `/tags/4.3/readme.txt` that'll be used
-for displaying information about the plugin.  In this situation, the only thing considered from the trunk `readme.txt`
-is the stable tag pointer.  Thus, if you develop in trunk, you can update the trunk `readme.txt` to reflect changes in
-your in-development version, without having that information incorrectly disclosed about the current stable version
-that lacks those changes -- as long as the trunk's `readme.txt` points to the correct stable tag.
-
-    If no stable tag is provided, it is assumed that trunk is stable, but you should specify "trunk" if that's where
-you put the stable version, in order to eliminate any doubt.
-
+With this plugin, you ensure that your customers stay informed about their orders, providing seamless customer service through WhatsApp's reliable messaging system.
 
 == Frequently Asked Questions ==
 
-= A question that someone might have =
+= How do I customize the WhatsApp messages? =
 
-An answer to that question.
+Navigate to the 'SuperWP Woo WhatsApp Order Tracker' settings in the WooCommerce admin panel. Here, you can configure the default message content, including placeholders for dynamic data like order numbers.
 
+= Can customers track orders from the frontend? =
+
+Yes! You can use the [superwp_order_tracker] shortcode on any page to display the order tracking form where customers can enter their details.
+
+= Is there a limit to the number of messages sent? =
+
+This plugin relies on WhatsApp messaging, so you are subject to WhatsApp’s messaging limits.
 
 == Installation ==
 
-1. Go to `Plugins` in the Admin menu
-2. Click on the button `Add new`
-3. Search for `SuperWP Woo WhatsApp Order Tracker` and click 'Install Now' or click on the `upload` link to upload `superwp-woo-whatsapp-order-tracker.zip`
-4. Click on `Activate plugin`
+1. Go to `Plugins` in the Admin menu.
+2. Click on the button `Add new`.
+3. Search for `SuperWP Woo WhatsApp Order Tracker` and click 'Install Now' or click on the `upload` link to upload `superwp-woo-whatsapp-order-tracker.zip`.
+4. Click on `Activate plugin`.
+5. Navigate to WooCommerce > Settings > SuperWP Woo WhatsApp Order Tracker to configure the plugin.
 
 == Changelog ==
 
 = 1.0.02: October 5, 2024 =
-* Birthday of SuperWP Woo WhatsApp Order Tracker
+* Initial release of SuperWP Woo WhatsApp Order Tracker.
+* Added shortcode for the order tracking form.
+* Included admin options for WhatsApp number and custom messages.
+* Added placeholder and color sliders for customization.
+* Added full documentation for shortcode usage.
