@@ -42,7 +42,7 @@ Once activated, you can configure the plugin in the WooCommerce settings panel u
 
 Use the following shortcode to display the order tracking form on any page or post:
 
-[superwp_order_tracker]
+[superwp_woo_order_tracker]
 
 This will generate a form with two fields:
 
