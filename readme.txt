@@ -35,7 +35,7 @@ Navigate to the 'SuperWP Woo WhatsApp Order Tracker' settings in the WooCommerce
 
 = Can customers track orders from the frontend? =
 
-Yes! You can use the [superwp_order_tracker] shortcode on any page to display the order tracking form where customers can enter their details.
+Yes! You can use the [superwp_woo_order_tracker] shortcode on any page to display the order tracking form where customers can enter their details.
 
 = Is there a limit to the number of messages sent? =
 
