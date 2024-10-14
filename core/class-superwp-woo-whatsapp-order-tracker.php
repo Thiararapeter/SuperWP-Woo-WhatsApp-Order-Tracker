@@ -554,11 +554,3 @@ final class Superwp_Woo_Whatsapp_Order_Tracker {
 }
 
 endif; // End if class_exists check.
-
-// Initialize the plugin
-function run_superwp_woo_whatsapp_order_tracker() {
-    return Superwp_Woo_Whatsapp_Order_Tracker::instance();
-}
-
-// Run the plugin
-run_superwp_woo_whatsapp_order_tracker();

@@ -53,10 +53,11 @@ After form submission, they will receive real-time WhatsApp updates regarding th
 
 ### Available Placeholders in Custom Messages
 You can use the following placeholders to include dynamic content in your WhatsApp messages:
-- {{order_number}}: The WooCommerce order number.
-- {{order_status}}: The current status of the customer's order.
-- {{customer_name}}: The customer's full name.
-- {{order_tracking_link}}: A URL link for tracking the order on your website.
+- {order_number}: The WooCommerce order number.
+- {order_status}: The current status of the customer's order.
+- {customer_name}: The customer's full name.
+- {order_tracking_link}: A URL link for tracking the order on your website.
+- {test}: A placeholder for testing purposes.
 
 ### Example Message Template:
 Hello {{customer_name}}, your order {{order_number}} is currently {{order_status}}. You can track your order status here: {{order_tracking_link}}.
@@ -77,5 +78,24 @@ The plugin uses the WhatsApp number set by the admin to send order updates. You 
 
 ## Changelog
 
-### Version 1.0.02
+### Version 1.0.04 (October 15, 2024)
+* Fixed bug in order tracking functionality
+* Improved UI of the order tracking form
+* Added customizable form field labels and placeholders
+* Introduced QR code generation for WhatsApp message scanning
+* Enhanced WhatsApp button customization options
+* Added color settings for form elements and messages
+* Implemented AJAX-based settings updates for improved admin experience
+* New features from core/class-superwp-woo-whatsapp-order-tracker.php:
+  - Added shortcode support for displaying order total
+  - Introduced customizable success and error messages
+  - Added option to customize admin WhatsApp number for notifications
+  - Implemented dynamic message templates with placeholders
+
+### Version 1.0.03 (October 10, 2024)
+* Added support for multiple languages
+* Improved compatibility with the latest version of WooCommerce
+* Enhanced security measures for form submissions
+
+### Version 1.0.02 (October 5, 2024)
 * Birthday of SuperWP Woo WhatsApp Order Tracker

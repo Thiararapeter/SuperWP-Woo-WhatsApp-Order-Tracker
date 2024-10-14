@@ -7,7 +7,7 @@ Tags: whatsapp, WooCommerce, order tracking, WhatsApp notifications, WooCommerce
 Requires at least: 4.7
 Tested up to: 6.6
 Requires PHP: 7.0
-Stable tag: 1.0.04
+Stable tag: 1.0.05
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -50,6 +50,25 @@ This plugin relies on WhatsApp messaging, so you are subject to WhatsApp’s mes
 5. Navigate to WooCommerce > Settings > SuperWP Woo WhatsApp Order Tracker to configure the plugin.
 
 == Changelog ==
+
+= 1.0.04: October 15, 2024 =
+* Fixed bug in order tracking functionality.
+* Improved UI of the order tracking form.
+* Added customizable form field labels and placeholders.
+* Introduced QR code generation for WhatsApp message scanning.
+* Enhanced WhatsApp button customization options.
+* Added color settings for form elements and messages.
+* Implemented AJAX-based settings updates for improved admin experience.
+* Included more features from core/class-superwp-woo-whatsapp-order-tracker.php:
+  - Added shortcode support for displaying order total.
+  - Introduced customizable success and error messages.
+  - Added option to customize admin WhatsApp number for notifications.
+  - Implemented dynamic message templates with placeholders.
+
+= 1.0.03: October 10, 2024 =
+* Added support for multiple languages.
+* Improved compatibility with the latest version of WooCommerce.
+* Enhanced security measures for form submissions.
 
 = 1.0.02: October 5, 2024 =
 * Initial release of SuperWP Woo WhatsApp Order Tracker.
