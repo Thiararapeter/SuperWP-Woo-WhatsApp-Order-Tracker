@@ -11,7 +11,7 @@
  * Plugin Name:   SuperWP Woo WhatsApp Order Tracker
  * Plugin URI:    https://github.com/Thiararapeter/SuperWP-Woo-WhatsApp-Order-Tracker
  * Description:   WooCommerce WhatsApp Order Tracking Form with admin settings, color sliders, and multiple shortcodes.
- * Version:       1.0.03
+ * Version:       1.0.04
  * Author:        Thiarara SuperWP
  * Author URI:    https://profiles.wordpress.org/thiarara/
  * Text Domain:   superwp-woo-whatsapp-order-tracker
